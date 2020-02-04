@@ -11,6 +11,13 @@
             "title": "DEV",
             "icon": "fa-dev",
             "url": "https://dev.to/kopechli"
+        },
+        {
+            "type": "deviantart",
+            "title": "deviantart",
+            "icon": "fa-deviantart",
+            "url": "https://www.deviantart.com/exetleos"
+           
         }
     ]
 }
