@@ -1,12 +1,13 @@
 ---
 layout: body
+img_path: images/post-bg.jpg
 ---
 
   {% if page.hide_header == true %}
     {% include header_alt.html %}
   {% else %}
     
-    {% include header.html site=site page=page img_path=site.post.bg_img %}
+    {% include header.html site=site page=page img_path=page.img_path %}
   {% endif %}
 
   <div id="content" class="site-content">
