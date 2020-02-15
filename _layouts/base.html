@@ -19,8 +19,19 @@
     <body>
         
         {{ content }}
+        <div class="wrap">
+            <div class="loading">
+              <div class="bounceball"></div>
+              <div class="text">LOADING</div>
+            </div>
+        </div>
         <!-- Scripts -->
         <script src="{{ 'assets/js/plugins.js' | relative_url }}"></script>
         <script src="{{ 'assets/js/main.js' | relative_url }}"></script>
+        <script>
+            $(window).on("load",function(){
+                $(".wrap").fadeOut("slow");
+            });
+        </script>
     </body> 
 </html>
