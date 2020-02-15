@@ -20,11 +20,11 @@ layout: body
           </header><!-- .post-header -->
           {% assign thumb_img_path_is_not_empty = post.thumb_img_path | is_not_empty %}
           {% if thumb_img_path_is_not_empty %}
-          <a style="position:relative;left:73%;border:none;" href="https://www.freepik.com/slidesgo"><img class="src" style="width:65px;"   src="/images/freepik.svg" alt="freepik" /></a>
+         
 
           <a class="post-thumbnail" href="{{ post.url | relative_url }}">
             <img class="thumbnail" src="{{ post.thumb_img_path | relative_url }}" alt="{{ post.title }}" />
-           
+            <a style="position:relative;left:73%;border:none;" href="https://www.freepik.com/slidesgo"><img class="src" style="width:65px;"   src="/images/freepik.svg" alt="freepik" /></a>
           </a>
          
           {% endif %}
