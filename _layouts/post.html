@@ -20,16 +20,7 @@ layout: body
               datetime="{{ page.date | date: '%Y-%m-%d %H:%M' }}">{{ page.date | date: '%A, %B %e, %Y' }}</time>
           </div>
          
-          <div id="new-todos">
-            <h1>Add your name</h1>
-            <form>
-              <label>
-                Name
-                <input type="text" id="new-name" />
-              </label>
-              <button type="submit">Add</button>
-            </form>
-          </div>
+   
           
         </header><!-- .post-header -->
         {% assign subtitle_is_not_empty = page.subtitle | is_not_empty %}
