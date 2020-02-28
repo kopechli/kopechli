@@ -18,7 +18,13 @@ body {
   color: _palette(primary);
   line-height: 1.66667;
 }
-
+.parent {
+  display: flex;
+  align-items: center;
+}
+.parent > div {
+  flex: 1;
+}
 a {
   border-bottom: 2px solid _palette(accent);
   color: _palette(primary);
