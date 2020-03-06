@@ -46,10 +46,10 @@ document.querySelector('#to-top').addEventListener('click', function (e) {
 });
 
 
-fetch('https://apimeme.com/meme?meme=Chemistry-Cat&top=Technologies+And+Tools&bottom=kopechli&test=1')
-  .then((response) => {
-    return response.json();
-  })
-  .then((data) => {
-    console.log(data);
-  });
+// fetch('https://apimeme.com/meme?meme=Chemistry-Cat&top=Technologies+And+Tools&bottom=kopechli&test=1')
+//   .then((response) => {
+//     return response.json();
+//   })
+//   .then((data) => {
+//     console.log(data);
+//   });
