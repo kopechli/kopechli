@@ -151,3 +151,19 @@
     font-size: 14px;
   }
 }
+.c-card__body{
+  display: none;
+}
+@media (max-width: $breakpoint-tablet) {
+  #qrCode{
+    display: none;
+  }
+  #profile_photo{
+    display: unset;
+    text-align: center;
+  }
+  .c-card__body{
+    display: block;
+    margin-top: 10px;
+  }
+}

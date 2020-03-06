@@ -46,10 +46,13 @@ document.querySelector('#to-top').addEventListener('click', function (e) {
 });
 
 
-// fetch('https://apimeme.com/meme?meme=Chemistry-Cat&top=Technologies+And+Tools&bottom=kopechli&test=1')
-//   .then((response) => {
-//     return response.json();
-//   })
-//   .then((data) => {
-//     console.log(data);
-//   });
+// if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+//   var code = document.getElementById("qrCode");
+//   var profilePic = document.getElementById("profile_photo");
+//   var info = document.getElementsByClassName("c-card__body");
+  
+//   code.style.display="none";
+//   profilePic.style.display ="unset";
+//   profilePic.style.textAlign ="center";
+//   info[0].style.display="block";
+//  }
